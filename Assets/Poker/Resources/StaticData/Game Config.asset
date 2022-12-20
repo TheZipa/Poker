@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4165b154ae4d1d8a20a2cb0a199ed9, type: 3}
+  m_Name: Game Config
+  m_EditorClassIdentifier: 
+  MaxAICount: 4
+  StartCoins: 1000
+  SmallBlind: 25
+  PlayerStepTime: 12.5
+  AnimationSpeed: 0.15
+  CardStackOffset: 0.8

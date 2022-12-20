@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41ef55d5d7af4ec985a7535a6ce8bfa2, type: 3}
+  m_Name: Location Data
+  m_EditorClassIdentifier: 
+  UserLocation:
+    LeftCardLocation:
+      Position: {x: 1.025, y: 4.5, z: 0.40000013}
+      Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    RightCardLocation:
+      Position: {x: 1.0249999, y: 4.5, z: -0.4}
+      Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    TurnMarkerLocation:
+      Position: {x: 1.865, y: 4.605, z: -0.000000029802322}
+      Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+    PlayerTextLocation:
+      Position: {x: 2.4350002, y: 4.5, z: -0.00000011920929}
+      Rotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  AILocations:
+  - LeftCardLocation:
+      Position: {x: 0.8589101, y: 4, z: -3.138638}
+      Rotation: {x: -0, y: 0.9659258, z: -0, w: 0.2588191}
+    RightCardLocation:
+      Position: {x: 0.16608983, y: 4, z: -3.538638}
+      Rotation: {x: -0, y: 0.9659258, z: -0, w: 0.2588191}
+    TurnMarkerLocation:
+      Position: {x: 1, y: 4.105, z: -4.1830125}
+      Rotation: {x: -0, y: 0.9659258, z: -0, w: 0.2588191}
+    PlayerTextLocation:
+      Position: {x: 1.4250002, y: 4, z: -4.919134}
+      Rotation: {x: -0, y: 0.9659258, z: -0, w: 0.2588191}
+  - LeftCardLocation:
+      Position: {x: -0.8499999, y: 4, z: -2.9}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    RightCardLocation:
+      Position: {x: -0.85, y: 4, z: -2.1}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    TurnMarkerLocation:
+      Position: {x: -1.825, y: 4.105, z: -2.5}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    PlayerTextLocation:
+      Position: {x: -2.6750002, y: 4, z: -2.5}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  - LeftCardLocation:
+      Position: {x: -0.8499999, y: 4, z: 2.1}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    RightCardLocation:
+      Position: {x: -0.85, y: 4, z: 2.9}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    TurnMarkerLocation:
+      Position: {x: -1.825, y: 4.105, z: 2.5}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    PlayerTextLocation:
+      Position: {x: -2.6750002, y: 4, z: 2.5}
+      Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  - LeftCardLocation:
+      Position: {x: 0.16608977, y: 4, z: 3.538638}
+      Rotation: {x: -0, y: 0.2588191, z: -0, w: 0.9659258}
+    RightCardLocation:
+      Position: {x: 0.8589101, y: 4, z: 3.138638}
+      Rotation: {x: -0, y: 0.2588191, z: -0, w: 0.9659258}
+    TurnMarkerLocation:
+      Position: {x: 1, y: 4.105, z: 4.1830125}
+      Rotation: {x: -0, y: 0.2588191, z: -0, w: 0.9659258}
+    PlayerTextLocation:
+      Position: {x: 1.4250002, y: 4, z: 4.919134}
+      Rotation: {x: -0, y: 0.2588191, z: -0, w: 0.9659258}
+  CardViewLocation:
+    Position: {x: -7, y: 4.8, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+  CardStackLocation:
+    Position: {x: -0.425, y: 4, z: -1.625}
+    Rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
